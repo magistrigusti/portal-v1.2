@@ -43,7 +43,7 @@ const Stories = () => {
 
         <div className="flex flex-col items-center gap-2 cursor-pointer">
           <Image  className="w-20 h-20 rounded-full ring-2" 
-            src="/images/img.jpg" alt=""
+            src="/images/avatar.jpg" alt=""
             width={80}
             height={80}
           />
