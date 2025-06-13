@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Comments from "./Comments";
 
 const Post = () => {
   return (
@@ -29,7 +30,7 @@ const Post = () => {
             <br />
            Here begins your grand journey across the astral isles,
            where magic🧙‍♂️, heroes🦸‍♀️ and legends meet at the crossroads of worlds.
-           This is not just a cosial network - it's a PORTAL to a new universe,
+           This is not just a cosial network - it is a PORTAL to a new universe,
            where every step opens new opportunities.
             <br />
            🎮Join our community, share your stories,
@@ -42,7 +43,43 @@ const Post = () => {
       </div>
 
       {/* INTERACTION */}
-      <div></div>
+      <div className="flex items-center justify-between text-sm my-4">
+        <div className="flex gap-8">
+          <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
+            <Image className="cursor-pointer"
+              src="/img/like.png" alt="" width={16} height={16} 
+            />
+            <span className="text-gray-300">|</span>
+            <span className="text-gray-500">123
+              <span className="hidden md:inline"> Likes</span>
+            </span>
+          </div>
+
+          <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
+            <Image className="cursor-pointer"
+              src="/img/comment.png" alt="" width={16} height={16} 
+            />
+            <span className="text-gray-300">|</span>
+            <span className="text-gray-500">123
+              <span className="hidden md:inline"> Comments</span>
+            </span>
+          </div>
+        </div>
+
+        <div>
+          <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
+            <Image className="cursor-pointer"
+              src="/img/share.png" alt="" width={16} height={16} 
+            />
+            <span className="text-gray-300">|</span>
+            <span className="text-gray-500">123
+              <span className="hidden md:inline"> Shares</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <Comments />
     </div>
   )
 }

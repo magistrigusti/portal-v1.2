@@ -31,15 +31,15 @@ const AddPost = () => {
         {/* POST OPTIONS */}
         <div className="flex items-center gap-4 mt-4 text-gray-400 flex-wrap ">
           <div className="flex items-center gap-2 cursor-pointer">
-            <Image src="/img/addimage.png" alt="" 
-              width={20} height={20}
+            <Image src="/icons/add-photo.png" alt="" 
+              width={24} height={24}
             />
               Photo
           </div>
 
           <div className="flex items-center gap-2 cursor-pointer">
-            <Image src="/img/addVideo.png" alt="" 
-              width={20} height={10}
+            <Image src="/icons/add-video.png" alt="" 
+              width={24} height={24}
             />
             Video
           </div>
