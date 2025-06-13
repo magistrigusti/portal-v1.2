@@ -4,6 +4,7 @@ const nextConfig = {
     reactCompiler: true,
     ppr: 'incremental'
   },
+  
 };
 
 export default nextConfig;
