@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex gap-6 text-gray-600">
           <Link href="/" className="flex gap-2">
             <Image className="flex items-center gap-2"
-              src="/home.png"
+              src="/img/home.png"
               alt="Home"
               width={24}
               height={16}
@@ -30,7 +30,7 @@ const Navbar = () => {
 
           <Link href="/" className="flex gap-2">
             <Image className="flex items-center gap-2"
-              src="/friends.png"
+              src="/img/friends.png"
               alt="Friends Page"
               width={24}
               height={16}
@@ -41,7 +41,7 @@ const Navbar = () => {
 
           <Link href="/" className="flex gap-2">
             <Image className="flex items-center gap-2"
-              src="/stories.png"
+              src="/img/stories.png"
               alt="Stories Page"
               width={24}
               height={16}
@@ -56,7 +56,7 @@ const Navbar = () => {
             type="text" placeholder="search..." 
           />
 
-          <Image src="/search.png" alt="" width={14} height={14} />
+          <Image src="/img/search.png" alt="" width={14} height={14} />
         </div>
       </div>
 
@@ -71,15 +71,15 @@ const Navbar = () => {
         <ClerkLoaded>
           <SignedIn>
             <div className="cursor-pointer">
-              <Image src="/people.png" alt="people" width={24} height={24} />
+              <Image src="/img/people.png" alt="people" width={24} height={24} />
             </div>
 
             <div className="cursor-pointer">
-              <Image src="/messages.png" alt="messages" width={20} height={20} />
+              <Image src="/img/messages.png" alt="messages" width={20} height={20} />
             </div>
 
             <div className="cursor-pointer">
-              <Image src="/notifications.png" alt="notifications" width={20} height={20} />
+              <Image src="/img/notifications.png" alt="notifications" width={20} height={20} />
             </div>
 
             <UserButton />
@@ -87,7 +87,7 @@ const Navbar = () => {
 
           <SignedOut>
             <div className="flex items-center gap-2">
-              <Image src="/login.png" alt="" width={20} height={20} />
+              <Image src="/img/login.png" alt="" width={20} height={20} />
 
               <Link href="/sign-in">Login/Register</Link>
             </div>
