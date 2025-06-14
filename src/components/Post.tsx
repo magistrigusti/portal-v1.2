@@ -7,9 +7,9 @@ const Post = () => {
       {/* USER */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <Image className="w-10 h-10 rounded-full"
+          <Image className="w-11 h-11 rounded-full"
             src="/images/avatar-1.jpg" alt=""
-            width={40} height={40}
+            width={44} height={44}
           />
           <span className="font-medium">Jack McBride</span>
         </div>
