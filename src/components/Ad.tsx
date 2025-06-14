@@ -36,8 +36,11 @@ const Ad = ({ size }: { size: "sm" | "md" | "lg" }) => {
             : 
             " 🌳 BigChef Lounge Rest your weary soul beneath the floating tree of legends. 🍵 Magic brews, ancient tales, and peaceful skies await. ✨ Step in, adventurer — your story deserves a pause."
           }
-
         </p>
+
+        <button className="bg-gray-200 text-gray-500 p-2 text-xs rounded-lg">
+          Learn more
+        </button>
       </div>
     </div>
   )
