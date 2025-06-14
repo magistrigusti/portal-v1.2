@@ -1,8 +1,8 @@
 
-const RightMenu = () => {
+const RightMenu = ({ userId }: { userId?: string}) => {
   return (
-    <div>
-      RightMenu
+    <div className="flex flex-col gap-6">
+      
     </div>
   )
 }

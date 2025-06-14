@@ -28,23 +28,36 @@ const Comments = () => {
       {/* COMMENTS */}
       <div>
         {/* COMENT */}
-        <div>
+        <div className="flex gap-4 m-4 justify-between">
           {/* AVATAR */}
-          <Image className="w-10 h-10 rounded-full"
+          <Image className="w-10 h-10 m-2 rounded-full"
             src="/images/avatar-gnom.jpg" alt=""
             width={40} height={40}
           />
 
           {/* DESC */}
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 flex-1">
             <span className="font-medium">Bernice Spencer</span>
 
             <p>
-              This world feels alive already... 
-              The floating isles, the portal, 
-              the skyships – it’s like stepping into a dream woven from magic and code. 
+              This world feels alive already...
+              The floating isles, the portal,
+              the skyships – it’s like stepping into a dream woven from magic and code.
               I can not wait to explore what lies beyond! ✨🛡️🚀
             </p>
+
+            <div className="flex items-center gap-8 text-xs text-gray-500 mt-2">
+              <div className="flex items-center gap-4">
+                <Image className="cursor-pointer w-4 h-4"
+                  src="/img/like.png" alt=""
+                  width={16} height={16}
+                />
+                <span className="text-gray-300">|</span>
+                <span className="text-gray-500">123</span>
+              </div>
+
+              <div>Reply</div>
+            </div>
           </div>
 
           {/* ICON */}
