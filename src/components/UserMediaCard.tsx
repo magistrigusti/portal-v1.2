@@ -18,48 +18,56 @@ const UserMediaCard = ({userId}: {userId: string}) => {
         <div className="relative w-1/5 h-24">
           <Image className="object-cover rounded-md"
             src="/images/alpha.png" alt="" fill 
+            sizes="(max-width: 600px) 100vw, 20vw"
           />
         </div>
 
         <div className="relative w-1/5 h-24">
           <Image className="object-cover rounded-md"
             src="/images/alpha-1.png" alt="" fill 
+            sizes="(max-width: 600px) 100vw, 20vw"
           />
         </div>
 
         <div className="relative w-1/5 h-24">
           <Image className="object-cover rounded-md"
             src="/images/alpha-2.png" alt="" fill 
+            sizes="(max-width: 600px) 100vw, 20vw"
           />
         </div>
 
         <div className="relative w-1/5 h-24">
           <Image className="object-cover rounded-md"
             src="/images/alpha-3.jpg" alt="" fill 
+            sizes="(max-width: 600px) 100vw, 20vw"
           />
         </div>
 
         <div className="relative w-1/5 h-24">
           <Image className="object-cover rounded-md"
             src="/images/alpha-4.jpg" alt="" fill 
+            sizes="(max-width: 600px) 100vw, 20vw"
           />
         </div>
 
         <div className="relative w-1/5 h-24">
           <Image className="object-cover rounded-md"
             src="/images/alpha-5.jpg" alt="" fill 
+            sizes="(max-width: 600px) 100vw, 20vw"
           />
         </div>
 
         <div className="relative w-1/5 h-24">
           <Image className="object-cover rounded-md"
             src="/images/alpha-6.jpg" alt="" fill 
+            sizes="(max-width: 600px) 100vw, 20vw"
           />
         </div>
 
         <div className="relative w-1/5 h-24">
           <Image className="object-cover rounded-md"
             src="/images/alpha-7.jpg" alt="" fill 
+            sizes="(max-width: 600px) 100vw, 20vw"
           />
         </div>
       </div>
