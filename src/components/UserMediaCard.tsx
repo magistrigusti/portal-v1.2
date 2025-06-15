@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const UserMediaCard = ({userId}: {userId: string}) => {
@@ -10,6 +11,57 @@ const UserMediaCard = ({userId}: {userId: string}) => {
         <Link href="/" className="text-blue-500 text-xs">
           See all
         </Link>
+      </div>
+
+      {/* BOTTOM */}
+      <div className="flex gap-4 justify-between flex-wrap">
+        <div className="relative w-1/5 h-24">
+          <Image className="object-cover rounded-md"
+            src="/images/alpha.png" alt="" fill 
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image className="object-cover rounded-md"
+            src="/images/alpha-1.png" alt="" fill 
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image className="object-cover rounded-md"
+            src="/images/alpha-2.png" alt="" fill 
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image className="object-cover rounded-md"
+            src="/images/alpha-3.jpg" alt="" fill 
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image className="object-cover rounded-md"
+            src="/images/alpha-4.jpg" alt="" fill 
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image className="object-cover rounded-md"
+            src="/images/alpha-5.jpg" alt="" fill 
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image className="object-cover rounded-md"
+            src="/images/alpha-6.jpg" alt="" fill 
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image className="object-cover rounded-md"
+            src="/images/alpha-7.jpg" alt="" fill 
+          />
+        </div>
       </div>
     </div>
   )
