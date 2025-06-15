@@ -25,8 +25,8 @@ const Post = () => {
           />
         </div>
 
-        <p>
-           🙋‍♂️ Welcome to Portal! 
+        <p >
+              🙋‍♂️<b >Welcome to Portal</b>! 
             <br />
            Here begins your grand journey across the astral isles,
            where magic🧙‍♂️, heroes🦸‍♀️ and legends meet at the crossroads of worlds.
